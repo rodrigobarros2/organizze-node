@@ -8,5 +8,15 @@
 	},
 	"keywords": [],
 	"author": "Rodrigo Barros",
-	"license": "ISC"
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.17.1",
+		"mongoose": "^5.10.13"
+	},
+	"devDependencies": {
+		"eslint": "^7.13.0",
+		"eslint-config-airbnb-base": "^14.2.1",
+		"eslint-plugin-import": "^2.22.1",
+		"nodemon": "^2.0.6"
+	}
 }
