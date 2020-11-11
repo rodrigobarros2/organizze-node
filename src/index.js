@@ -1,14 +1,15 @@
 const express = require('express');
+const cors = require('cors');
 
 const server = express();
-
-/* pra api entender em formato json e renviar em formato json */
+server.use(cors());
 server.use(express.json());
 
 const TaskRoutes = require('./routes/TaskRoutes');
 
 server.use('/task', TaskRoutes);
 
-server.listen(3000, () => {
-  console.log('API ONLINE');
+server.listen(3333, () => {
+	// eslint-disable-next-line no-console
+	console.log('API ONLINE');
 });
