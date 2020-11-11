@@ -1,0 +1,11 @@
+mpm i -g nodemon
+mpm i nodemon -D
+
+npm i mongoose
+
+
+as funções separadas no controller, função de cadastras, de atualizar de pesquisar etc..
+
+dentro do model, fica as funções que o banco vai armazenar
+
+e no routes fica as rotas, e qual rota chama qual função.
