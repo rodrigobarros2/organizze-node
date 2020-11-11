@@ -13,3 +13,12 @@ const TaskSchema = new Schema({
 });
 
 module.exports = mongoose.model('Task', TaskSchema);
+
+/* aqui é a representação das tarefas  */
+
+/* macaddress, captura o mac do celular que cadastrou a atividade */
+/* type, é o tipo de tarefa cadastrada */
+/* title, titulo da tarefa digitada pelo usuário */
+/* when vai guardar a data e a hora */
+/* done, quando o botão tiver habilitado ou não */
+/* created, quando a tividade for criada, pegando o valor da data e da hora atual */
