@@ -9,3 +9,6 @@ as funções separadas no controller, função de cadastras, de atualizar de pes
 dentro do model, fica as funções que o banco vai armazenar
 
 e no routes fica as rotas, e qual rota chama qual função.
+
+
+npm i date-fns
